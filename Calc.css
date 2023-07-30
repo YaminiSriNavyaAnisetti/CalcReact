@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(242, 198, 144);
+}
+.Main{
+    height:350px;
+    width:450px;
+    border:3px solid rgb(45, 45, 57);
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: auto;
+    margin-top: 15%;
+    background-color:rgba(191, 208, 219, 0.797);
+
+}
+.Container{
+    margin-top:8%;
+}
+input{
+    height:30px;
+    width:350px;
+    font-size:20px ;
+    font-weight: 10px;
+    margin-left:1px;
+    text-align:end;
+    background-color: rgb(105, 152, 85);
+    
+}
+.keypad{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin-top: 50px;
+    justify-content:space-between;
+    border :1 px solid black;
+}
+#Aclear{
+    background-color:rgb(243, 45, 65);
+    grid-column:1/3;
+}
+#clear{
+    background-color:rgba(175, 175, 15, 0.578);
+}
+#equal{
+    background-color:rgb(91, 158, 67);
+    grid-column:3/5;
+}
+button{
+    margin:5px;
+    height:30px;
+    border-right:3px solid  black;
+    border-bottom:3px solid  black;
+    border-radius:10%;
+    background-color: rgb(120, 145, 145);
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #border{
+    width:400px;
+    height:250px;
+    border:2px solid black;
+    background-color: black;
+    margin:auto;
+    margin-top:200px
+}
+#clear{
+    width:182px;
+    background-color:red ;
+}
+button{
+    width:90px;
+    margin:3px;
+}
+#equal{
+    width:182px;
+    background-color: green;
+}
+#res{
+    width:350px;
+    height:30px;
+    border:1px solid black;
+    background-color:white;
+    margin:30px;
+    text-align: end;
+   
+
+} */
